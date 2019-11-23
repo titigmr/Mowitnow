@@ -65,19 +65,19 @@ Tondeuse 2 : 5 1 E <br>
 ### Parser 
 
 Cette classe permet de lire le fichier d'entrée. Elle conserve les coordonnées du jardin (première ligne) et deux listes selon le nombre de tondeuse : 
-- `<i>commandes</i>` : la liste des instructions de chaque tondeuse
-- `<i>position</i>` : la position de chaque tondeuse 
+- `commandes`: la liste des instructions de chaque tondeuse
+- `position`: la position de chaque tondeuse 
 
 ### Tondeuse 
 
 Cette classe permet de constuire une tondeuse. Elle prend pour argument : les coordonées `x` et `y` de la tondeuse, son `orientation`, et une liste des `commandes` qui lui sont demandées. 
 
 Cette classe contient plusieurs fonctions : 
-- `<i>avancer</i>` : la tondeuse avance selon son orientation actuelle 
-- `<i>tournerDroite</i>` : la tondeuse pivote à 90° vers la droite 
-- `<i>tournerDroite</i>` : la tondeuse pivote à 90° vers la gauche
-- `<i>maPosition</i>` : affiche la position de la tondeuse (coordonnées et orientation) 
-- `<i>faireCommandes</i>` : selon une liste de commande fournit, la tondeuse fait les actions précédentes (avancer, tournerDroite, tournerGauche).
+- `avancer` : la tondeuse avance selon son orientation actuelle 
+- `tournerDroite`: la tondeuse pivote à 90° vers la droite 
+- `tournerDroite`: la tondeuse pivote à 90° vers la gauche
+- `maPosition`: affiche la position de la tondeuse (coordonnées et orientation) 
+- `faireCommandes`: selon une liste de commande fournit, la tondeuse fait les actions précédentes (avancer, tournerDroite, tournerGauche).
 
 ### Run 
 
