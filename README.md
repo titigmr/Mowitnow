@@ -77,11 +77,11 @@ Cette classe contient plusieurs fonctions :
 - `tournerDroite`: la tondeuse pivote à 90° vers la droite
 - `tournerDroite`: la tondeuse pivote à 90° vers la gauche
 - `maPosition`: affiche la position de la tondeuse (coordonnées et orientation) 
-- `faireCommandes`: selon une liste de commandes fournit, la tondeuse fait les actions demandées (avancer, tournerDroite ou tournerGauche).
+- `faireCommandes`: selon une liste de commandes fourni, la tondeuse fait les actions demandées (avancer, tournerDroite ou tournerGauche).
 
 ### Run 
 
-Cet objet permet de lancer les tondeuses selon le fichier fournit par l'utilisateur.
+Cet objet permet de lancer les tondeuses selon le fichier fourni par l'utilisateur.
 
 ### Exemple 
 
