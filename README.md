@@ -75,6 +75,5 @@ Cette classe permet de constuire une tondeuse.
 Cet objet permet de lancer les tondeuses selon le fichier fournit par l'utilisateur.
 
 ## Auteurs 
-<br>
 Thierry <b>GAMEIRO MARTINS</b> <br>
 Romain <b>KRAWCZYK</b> <br>
