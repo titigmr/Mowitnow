@@ -81,6 +81,72 @@ Cette classe permet de constuire une tondeuse. Elle contient plusieurs fonctions
 
 Cet objet permet de lancer les tondeuses selon le fichier fournit par l'utilisateur.
 
+### Exemple 
+
+```
+Le jardin est de la taille suivante : 5, 5.
+Tondeuse numéro : 1
+****************************************************************************************************
+*                                                                                                  *
+        La position de la tondeuse est : (1, 2) et son orientation est N
+*                                                                                                  *
+****************************************************************************************************
+La tondeuse tourne à gauche. L'orientation est : W
+----------------------------------------------------------------------------------------------------
+La tondeuse avance d'une case vers : W. La nouvelle position est : (0, 2)
+----------------------------------------------------------------------------------------------------
+La tondeuse tourne à gauche. L'orientation est : S
+----------------------------------------------------------------------------------------------------
+La tondeuse avance d'une case vers : S. La nouvelle position est : (0, 1)
+----------------------------------------------------------------------------------------------------
+La tondeuse tourne à gauche. L'orientation est : E
+----------------------------------------------------------------------------------------------------
+La tondeuse avance d'une case vers : E. La nouvelle position est : (1, 1)
+----------------------------------------------------------------------------------------------------
+La tondeuse tourne à gauche. L'orientation est : N
+----------------------------------------------------------------------------------------------------
+La tondeuse avance d'une case vers : N. La nouvelle position est : (1, 2)
+----------------------------------------------------------------------------------------------------
+La tondeuse avance d'une case vers : N. La nouvelle position est : (1, 3)
+----------------------------------------------------------------------------------------------------
+****************************************************************************************************
+*                                                                                                  *
+        La position de la tondeuse est : (1, 3) et son orientation est N
+*                                                                                                  *
+****************************************************************************************************
+Tondeuse numéro : 2
+****************************************************************************************************
+*                                                                                                  *
+        La position de la tondeuse est : (3, 3) et son orientation est E
+*                                                                                                  *
+****************************************************************************************************
+La tondeuse avance d'une case vers : E. La nouvelle position est : (4, 3)
+----------------------------------------------------------------------------------------------------
+La tondeuse avance d'une case vers : E. La nouvelle position est : (5, 3)
+----------------------------------------------------------------------------------------------------
+La tondeuse tourne à droite. L'orientation est : S
+----------------------------------------------------------------------------------------------------
+La tondeuse avance d'une case vers : S. La nouvelle position est : (5, 2)
+----------------------------------------------------------------------------------------------------
+La tondeuse avance d'une case vers : S. La nouvelle position est : (5, 1)
+----------------------------------------------------------------------------------------------------
+La tondeuse tourne à droite. L'orientation est : W
+----------------------------------------------------------------------------------------------------
+La tondeuse avance d'une case vers : W. La nouvelle position est : (4, 1)
+----------------------------------------------------------------------------------------------------
+La tondeuse tourne à droite. L'orientation est : N
+----------------------------------------------------------------------------------------------------
+La tondeuse tourne à droite. L'orientation est : E
+----------------------------------------------------------------------------------------------------
+La tondeuse avance d'une case vers : E. La nouvelle position est : (5, 1)
+----------------------------------------------------------------------------------------------------
+****************************************************************************************************
+*                                                                                                  *
+        La position de la tondeuse est : (5, 1) et son orientation est E
+*                                                                                                  *
+****************************************************************************************************
+```
+
 ## Auteurs 
 Thierry <b>GAMEIRO MARTINS</b> <br>
 Romain <b>KRAWCZYK</b> <br>
