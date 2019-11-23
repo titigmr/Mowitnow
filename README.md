@@ -83,6 +83,8 @@ Cet objet permet de lancer les tondeuses selon le fichier fournit par l'utilisat
 
 ### Exemple 
 
+Le fichier `consignes.txt` renvoie la sortie suivante : 
+
 ```
 Le jardin est de la taille suivante : 5, 5.
 Tondeuse numéro : 1
