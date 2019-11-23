@@ -1,14 +1,14 @@
-class Tondeuse (var coord_x : Int, var coord_y : Int, var Orientation : String, var commande : List[String]) {
+class Tondeuse (var coord_x : Int, var coord_y : Int, var Orientation : String, var commande : List[String]) extends Parser {
 
     this.maPosition()
     this.faireCommandes()
     this.maPosition()
 
-    def avancer() = {
-    if ("N" == Orientation) coord_y += 1
-    if ("S" == Orientation) coord_y -= 1
-    if ("W" == Orientation) coord_x -= 1
-    if ("E" == Orientation) coord_x += 1
+  def avancer() = {
+    if ("N" == Orientation && coord_y < coord_ymax) coord_y += 1
+    if ("S" == Orientation && coord_y > 0) coord_y -= 1
+    if ("W" == Orientation && coord_x > 0) coord_x -= 1
+    if ("E" == Orientation && coord_x < coord_xmax) coord_x += 1
     println(s"La tondeuse avance d'une case vers : $Orientation. La nouvelle position est : ($coord_x, $coord_y)")
     println("-" * 100)
   }
