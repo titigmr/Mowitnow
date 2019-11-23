@@ -47,13 +47,13 @@ Concevoir et écrire un programme en Scala, implémentant la spécification ci-d
 
 ## Test
 
-Le fichier suivant est fourni en entrée :
+Le fichier suivant est fourni en entrée : <br>
 5 5 <br>
 1 2 N <br>
 GAGAGAGAA <br>
 3 3 E <br>
 AADAADADDA <br>
 
-On attend le résultat suivant (position finale des tondeuses) :
-Tondeuse 1 : 1 3 N 
-Tondeuse 2 : 5 1 E
+On attend le résultat suivant (position finale des tondeuses) : <br>
+Tondeuse 1 : 1 3 N <br>
+Tondeuse 2 : 5 1 E <br>
