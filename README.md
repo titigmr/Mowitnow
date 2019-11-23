@@ -48,12 +48,12 @@ Concevoir et écrire un programme en Scala, implémentant la spécification ci-d
 ## Test
 
 Le fichier suivant est fourni en entrée :
-5 5
-1 2 N
-GAGAGAGAA
-3 3 E
-AADAADADDA
+5 5 <br>
+1 2 N <br>
+GAGAGAGAA <br>
+3 3 E <br>
+AADAADADDA <br>
 
 On attend le résultat suivant (position finale des tondeuses) :
-Tondeuse 1 : 1 3 N
+Tondeuse 1 : 1 3 N 
 Tondeuse 2 : 5 1 E
