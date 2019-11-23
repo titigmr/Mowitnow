@@ -62,10 +62,19 @@ Tondeuse 2 : 5 1 E <br>
 
 ## Solution 
 
+### Parser 
 
+Cette classe permet de lire le fichier d'entrée. 
 
+### Tondeuse 
+
+Cette classe permet de constuire une tondeuse. 
+
+### Run 
+
+Cet objet permet de lancer les tondeuses selon le fichier fournit par l'utilisateur.
 
 ## Auteurs 
 <br>
-Thierry GAMEIRO MARTINS <br>
-Romain KRAWCZYK <br>
+Thierry **GAMEIRO MARTINS** <br>
+Romain **KRAWCZYK** <br>
