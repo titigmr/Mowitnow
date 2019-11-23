@@ -76,5 +76,5 @@ Cet objet permet de lancer les tondeuses selon le fichier fournit par l'utilisat
 
 ## Auteurs 
 <br>
-Thierry **GAMEIRO MARTINS** <br>
-Romain **KRAWCZYK** <br>
+Thierry <b>GAMEIRO MARTINS</b> <br>
+Romain <b>KRAWCZYK</b> <br>
