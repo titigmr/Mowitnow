@@ -48,6 +48,7 @@ Concevoir et écrire un programme en Scala, implémentant la spécification ci-d
 ## Test
 
 Le fichier suivant est fourni en entrée : <br>
+<br>
 5 5 <br>
 1 2 N <br>
 GAGAGAGAA <br>
@@ -55,5 +56,16 @@ GAGAGAGAA <br>
 AADAADADDA <br>
 
 On attend le résultat suivant (position finale des tondeuses) : <br>
+<br>
 Tondeuse 1 : 1 3 N <br>
 Tondeuse 2 : 5 1 E <br>
+
+## Solution 
+
+
+
+
+## Auteurs 
+<br>
+Thierry GAMEIRO MARTINS <br>
+Romain KRAWCZYK <br>
