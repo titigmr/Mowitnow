@@ -6,7 +6,7 @@ class Parser {
   val document = Source.fromFile("consignes.txt").getLines.toList
 
   var coord_xmax = document(0).split(" ")(0).toInt
-  var coord_ymax = document(0).split(" ")(0).toInt
+  var coord_ymax = document(0).split(" ")(1).toInt
 
   var commandes = new ListBuffer[String]()
   var position = new ListBuffer[String]()
