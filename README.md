@@ -70,12 +70,12 @@ Cette classe permet de lire le fichier d'entrée. Elle conserve les coordonnées
 
 ### Tondeuse 
 
-Cette classe permet de constuire une tondeuse. Elle prend pour argument : les coordonées `x` et `y` de la tondeuse, son `orientation`, et une liste des `commandes` qui lui sont demandées. 
+Cette classe permet de constuire une tondeuse. Elle prend pour argument : les coordonnées `x` et `y` de la tondeuse, son `orientation`, et une liste des `commandes` qui lui sont demandées. 
 
 Cette classe contient plusieurs fonctions : 
 - `avancer` : la tondeuse avance d'une case selon son orientation actuelle 
 - `tournerDroite`: la tondeuse pivote à 90° vers la droite
-- `tournerDroite`: la tondeuse pivote à 90° vers la gauche
+- `tournerGauche`: la tondeuse pivote à 90° vers la gauche
 - `maPosition`: affiche la position de la tondeuse (coordonnées et orientation) 
 - `faireCommandes`: selon une liste de commandes fourni, la tondeuse fait les actions demandées (avancer, tournerDroite ou tournerGauche).
 
